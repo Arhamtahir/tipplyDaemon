@@ -1,0 +1,29 @@
+{"timestamp":1622111474855,"level":"info","context":{"name":""},"message":"Reading config file:","args":["/home/ubuntu/tipplyDaemon/Tipply-Jumpnet-Daemon/config.json"]}
+{"timestamp":1622111474856,"level":"info","context":{"name":""},"message":"Reading backup config file:","args":["/home/ubuntu/tipplyDaemon/Tipply-Jumpnet-Daemon/example-config.json"]}
+{"timestamp":1622111474857,"level":"trace","context":{"name":"storage"},"message":"created","args":[]}
+{"timestamp":1622111474857,"level":"trace","context":{"name":"wallet"},"message":"created","args":[]}
+{"timestamp":1622111474857,"level":"trace","context":{"name":"enjinx"},"message":"created","args":[]}
+{"timestamp":1622111474858,"level":"trace","context":{"name":"storage"},"message":"init","args":[]}
+{"timestamp":1622111478063,"level":"info","context":{"name":""},"message":"Enjin Wallet Daemon","args":["1.1.3-beta"]}
+{"timestamp":1622111478063,"level":"trace","context":{"name":"storage"},"message":"create","args":[]}
+{"timestamp":1622111478064,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111478064,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111478064,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111478064,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}
+{"timestamp":1622111478067,"level":"trace","context":{"name":"storage"},"message":"load","args":[]}
+{"timestamp":1622111478067,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111478067,"level":"trace","context":{"name":"storage"},"message":"readEncrypted_v3","args":[]}
+{"timestamp":1622111478067,"level":"trace","context":{"name":"storage"},"message":"decrypt","args":[]}
+{"timestamp":1622111478067,"level":"trace","context":{"name":"wallet"},"message":"load","args":[]}
+{"timestamp":1622111478068,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111478068,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111478068,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}
+{"timestamp":1622111478069,"level":"info","context":{"name":"wallet"},"message":"Importing private key...","args":[]}
+{"timestamp":1622111481459,"level":"info","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"created","args":[]}
+{"timestamp":1622111481460,"level":"trace","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"init","args":[]}
+{"timestamp":1622111481461,"level":"debug","context":{"name":"enjinx"},"message":"Querying EnjinX for Nonce","args":[]}
+{"timestamp":1622111481858,"level":"debug","context":{"name":"enjinx"},"message":"Nonce %s","args":[45]}
+{"timestamp":1622111481858,"level":"info","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"nonce %s","args":[45]}
+{"timestamp":1622111481858,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111481858,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111481858,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}

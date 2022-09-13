@@ -1,0 +1,67 @@
+{"timestamp":1622111503173,"level":"info","context":{"name":""},"message":"Reading config file:","args":["/home/ubuntu/tipplyDaemon/Tipply-Jumpnet-Daemon/config.json"]}
+{"timestamp":1622111503174,"level":"info","context":{"name":""},"message":"Reading backup config file:","args":["/home/ubuntu/tipplyDaemon/Tipply-Jumpnet-Daemon/example-config.json"]}
+{"timestamp":1622111503174,"level":"trace","context":{"name":"storage"},"message":"created","args":[]}
+{"timestamp":1622111503175,"level":"trace","context":{"name":"wallet"},"message":"created","args":[]}
+{"timestamp":1622111503175,"level":"trace","context":{"name":"enjinx"},"message":"created","args":[]}
+{"timestamp":1622111503175,"level":"trace","context":{"name":"storage"},"message":"init","args":[]}
+{"timestamp":1622111506317,"level":"info","context":{"name":""},"message":"Enjin Wallet Daemon","args":["1.1.3-beta"]}
+{"timestamp":1622111506318,"level":"trace","context":{"name":"storage"},"message":"create","args":[]}
+{"timestamp":1622111506318,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111506318,"level":"trace","context":{"name":"storage"},"message":"load","args":[]}
+{"timestamp":1622111506318,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111506319,"level":"trace","context":{"name":"storage"},"message":"readEncrypted_v3","args":[]}
+{"timestamp":1622111506319,"level":"trace","context":{"name":"storage"},"message":"decrypt","args":[]}
+{"timestamp":1622111506320,"level":"trace","context":{"name":"wallet"},"message":"load","args":[]}
+{"timestamp":1622111506452,"level":"info","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"created","args":[]}
+{"timestamp":1622111506453,"level":"trace","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"init","args":[]}
+{"timestamp":1622111506453,"level":"debug","context":{"name":"enjinx"},"message":"Querying EnjinX for Nonce","args":[]}
+{"timestamp":1622111506694,"level":"debug","context":{"name":"enjinx"},"message":"Nonce %s","args":[45]}
+{"timestamp":1622111506694,"level":"info","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"nonce %s","args":[45]}
+{"timestamp":1622111506695,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111506695,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111506695,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}
+{"timestamp":1622111506697,"level":"info","context":{"name":"wallet"},"message":"Linking to new app using","args":["A1155FJ21"]}
+{"timestamp":1622111506697,"level":"info","context":{"name":"wallet"},"message":"Getting TP ID...","args":[]}
+{"timestamp":1622111506697,"level":"info","context":{"name":"wallet"},"message":"TP ID is","args":[0]}
+{"timestamp":1622111506698,"level":"info","context":{"name":"wallet"},"message":"Connecting to Platform: %s","args":[0]}
+{"timestamp":1622111506698,"level":"trace","context":{"name":"tp","opt":{"id":-1}},"message":"created","args":[]}
+{"timestamp":1622111506698,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"link","args":[]}
+{"timestamp":1622111506698,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"getAccessToken: %s","args":["0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"]}
+{"timestamp":1622111506698,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQl","args":[]}
+{"timestamp":1622111506698,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQlEndpoint","args":[]}
+{"timestamp":1622111506699,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"url %s","args":["2021-05-27T10:31:46.699Z"]}
+{"timestamp":1622111506700,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Last fetch %s","args":["1970-01-01T00:00:00.000Z"]}
+{"timestamp":1622111506700,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown fail=%s","args":[0]}
+{"timestamp":1622111506700,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown result=%s","args":["01m00.000s"]}
+{"timestamp":1622111506700,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Age %s","args":["450586h31m46.700s"]}
+{"timestamp":1622111506704,"level":"debug","context":{"name":"enjinx"},"message":"Querying EnjinX for TP URL","args":[]}
+{"timestamp":1622111506886,"level":"debug","context":{"name":"enjinx"},"message":"TP %s URL: %s","args":[0,"https://jumpnet.cloud.enjin.io"]}
+{"timestamp":1622111506886,"level":"info","context":{"name":"tp","opt":{"id":0}},"message":"URL: %s","args":["https://jumpnet.cloud.enjin.io"]}
+{"timestamp":1622111506887,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111506887,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111506887,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}
+{"timestamp":1622111507303,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Nonce to sign: %s","args":["0x4c75676a616b53557a72686a72696956553933694a415839316841767449584b"]}
+{"timestamp":1622111507303,"level":"trace","context":{"name":"account","opt":{"address":"0x5C9e3820Bd24C95b2E48F694475dBce2C59175E0"}},"message":"signDummyTransaction","args":[]}
+{"timestamp":1622111507330,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Signed transaction: %s","args":["0x4c75676a616b53557a72686a72696956553933694a415839316841767449584b"]}
+{"timestamp":1622111507330,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQl","args":[]}
+{"timestamp":1622111507330,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQlEndpoint","args":[]}
+{"timestamp":1622111507330,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"url %s","args":["2021-05-27T10:31:47.330Z"]}
+{"timestamp":1622111507331,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Last fetch %s","args":["2021-05-27T10:31:46.887Z"]}
+{"timestamp":1622111507331,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown fail=%s","args":[0]}
+{"timestamp":1622111507331,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown result=%s","args":["01m00.000s"]}
+{"timestamp":1622111507331,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Age %s","args":["00.444s"]}
+{"timestamp":1622111507331,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"URL [cached] %s","args":["https://jumpnet.cloud.enjin.io"]}
+{"timestamp":1622111507583,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Access token: %s","args":["eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNWVlZGM5YmU4NWVjMWE5N2E4MDk0OGZiOWNhOWVlN2RiMjcwYTY1OGJiOGRkZDIwMjk5MTQzYWYxZDA0MGFmZDkxOGU2OTllMDVmYWYzODAiLCJpYXQiOjE2MjIxMTE1MDcuNTE4ODM5LCJuYmYiOjE2MjIxMTE1MDcuNTE4ODQzLCJleHAiOjE2MjQ1MzA3MDcuNTExNzMsInN1YiI6IjMyNDUiLCJzY29wZXMiOlsid2FsbGV0Il19.UAvtPFp-hODhY2tXM960Nnqw5sTI54D4AlzKBf3eECokuhpYQLEEIozJ76r5kHFziboZmJf7tOU-viPW8g4ALazWomo8KM_Fy2lZbIlFSKwpmOsLTVVJzdgPm1aMn066ltVMghlWRxTElX4uLTNBr_ZirkpZyiU4J4SHr9qYnjxQ6TXmpo_9Dx0zxIR57PbG5aqsG5W80_j3-LXLaz-hYlJGNkB4goFkIL3POrDyqmA2n9DlLtMfE71ZfUPSfCgUZDac2FGZlwQ7ohpTN_GgYPv4l8ud07278nXSn6UAMWO6n_m2QEJHnZ2BWNysgyqWUnF8fxZF9sQLu7XMLCrwFKgrAtAzJ0WT3Oe2WwQKANGZKbffxYHUqt1gphawPQ8L-x6akj5x9gAzU5rKLqLTQuVajTXafc2uYASykXi8dDQF-nSEQXhOCw1N4VThCEIE9ggkclMzAT2J_b5MwWIR-TFr3cgfOhbvNuasWdUvpYPM4rUuOehULXHZg67HI6zEHGrNYU0y7KLQQQRtQxdF9hzpAIzkrprvxsQG2fNoh7QK58ijL2dIah68eMo2-jftvd9iUpmJjMBqKPJKBMhHVk1shLZncPoNZ49X4EXlsZ5fKYKB41Mfj-jKRdJNJyXorovUHMj5mpx_mUwO7vtzfuq7lmSw3Q_Z6Eu4M_wRJpA"]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQl","args":[]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"graphQlEndpoint","args":[]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"url %s","args":["2021-05-27T10:31:47.584Z"]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Last fetch %s","args":["2021-05-27T10:31:46.887Z"]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown fail=%s","args":[0]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"cooldown result=%s","args":["01m00.000s"]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"Age %s","args":["00.697s"]}
+{"timestamp":1622111507584,"level":"trace","context":{"name":"tp","opt":{"id":0}},"message":"URL [cached] %s","args":["https://jumpnet.cloud.enjin.io"]}
+{"timestamp":1622111508082,"level":"trace","context":{"name":"identity","opt":{"id":-1,"appId":-1}},"message":"created","args":[]}
+{"timestamp":1622111508082,"level":"info","context":{"name":"identity","opt":{"appId":63}},"message":"linking","args":[]}
+{"timestamp":1622111508082,"level":"trace","context":{"name":"storage"},"message":"save","args":[]}
+{"timestamp":1622111508082,"level":"trace","context":{"name":"storage"},"message":"storagePath","args":[]}
+{"timestamp":1622111508082,"level":"info","context":{"name":"storage"},"message":"Saving storage to:","args":["/home/ubuntu/enjin-wallet-daemon/storage.json"]}
